@@ -9,9 +9,9 @@ discount = 0
 if not is_account_active:
     print ("Account is not active")
 #What do we have in cart ? Checknig the cart(if not)
-minimum_cost = 0
-if minimum_cost <= 0 : 
-    print("Payment declined")
+#minimum_cost = 0
+#if minimum_cost <= 0 : 
+#print("Payment declined") - ეს და ზემო ორი ეწერა. შევამჩნიე, რომ შეცდომით მქონდა გამოყვანილი. სულ უარყოფას ბეჭდავდა, ჭეშმარიტიც, რომ ყოფილიყო. უკეთ უნდა გავარკვიო რატომ...
 #Discount 
 else:
     if user_status == "vip":
